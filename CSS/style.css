@@ -1,0 +1,416 @@
+/*Global Presets*/
+
+@font-face {
+    font-family: Exo, sans-serif;
+    src: url(../fonts/Exo-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Exo, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+::selection {
+    background-color: #8578ff;
+    color: white;
+}
+
+#home,
+#specifications,
+#ratings,
+#products {
+    height: 100vh;
+}
+
+#specifications {
+    height: 125vh;
+}
+
+.clr-fix {
+    clear: both;
+}
+
+.bg-violet {
+    background-color: #ede9fe;
+}
+
+.cell-bold {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.cell-bolder {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #8e51ff;
+}
+
+.foot-rating {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.foot-bold {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.foot-bolder {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.top-radius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bottom-radius {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cell-red {
+    color: #f54900;
+}
+
+.align-left {
+    text-align: left;
+    width: 25%;
+}
+
+/*start of header styling*/
+#header {
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f3ff;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0px;
+
+
+}
+
+/* #header .head-wrapper .head-logo {
+    width: 5%;
+    ;
+    float: left;
+} */
+
+#header .head-wrapper .head-logo image {
+    width: 100%;
+    /* display: block; */
+}
+
+#header .head-wrapper .site-name {
+    float: left;
+    display: block;
+    width: 40%;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+
+.head-wrapper {
+    width: 65%;
+    margin: auto;
+}
+
+#header .head-nav {
+    width: 46%;
+    margin-top: 10px;
+    float: right;
+
+
+}
+
+#header .head-nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    line-height: 24px;
+
+
+}
+
+#header .head-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Exo, sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
+
+#header .head-nav ul li a span {
+    color: #8578ff;
+    border-bottom: 2px solid #8578ff;
+}
+
+/*end of header styling*/
+
+/*Start of home Styling*/
+#home {
+    margin-top: 50px;
+    padding: 100px 0px;
+}
+
+#home .container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+#home .container .home-sale-img,
+#home .home-sale-description {
+    width: 45%;
+    float: left;
+
+}
+
+#home .container .home-sale-img {
+    margin-right: 50px;
+}
+
+#home .home-sale-description {
+    margin-left: 50px;
+}
+
+#home .container .home-sale-img img {
+    width: 100%;
+    border: 20px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 1px rgb(202, 202, 202);
+}
+
+#home .home-sale-description .violet-background {
+    background-color: oklch(70.2% .183 293.541);
+    color: #f5f3ff;
+    font-size: 14px;
+    padding: 5px 10px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#home .home-sale-description h1,
+#home .home-sale-description h1 .pro {
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#home .container .home-sale-description h1 .pro {
+    color: #8578ff;
+    border: none;
+
+}
+
+#home .container .home-sale-description .home-sale-paragraph {
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+#home .container .home-sale-description .home-price,
+#home .container .home-sale-description .home-old-price,
+#home .container .home-sale-description .home-savings {
+    display: inline-block;
+    margin: 10px;
+}
+
+#home .container .home-sale-description .home-price {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#home .container .home-sale-description .home-old-price {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    /* text-decoration: line-through; */
+}
+
+#home .container .home-sale-description .home-savings {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: oklch(0.577 0.245 27.325);
+    background-color: #ffe2e2;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+#home .container .home-sale-description .buttons {
+    margin-top: 35px;
+}
+
+#home .container .home-sale-description .buttons .home-violet-button,
+#home .container .home-sale-description .buttons .home-white-button {
+    width: 100%;
+    display: block;
+    margin: 25px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border-radius: 30px;
+}
+
+#home .container .home-sale-description .buttons .home-violet-button {
+    background-color: #8578ff;
+    color: white;
+    border: none;
+}
+
+#home .container .home-sale-description .buttons .home-white-button {
+    background-color: white;
+    border: 1px solid rgb(191, 188, 188);
+
+}
+
+#home .container .home-sale-description .buttons .home-violet-button:hover,
+#home .container .home-sale-description .buttons .home-white-button:hover {
+    cursor: pointer;
+
+}
+
+/*End of home Styling*/
+
+/*Start of Specifications Styling*/
+#specifications {
+    background-color: #f5f3ff;
+    padding: 70px;
+}
+
+#specifications .specifications-title,
+#specifications .specifications-title .spec-title-violet {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#specifications .specifications-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#specifications .specifications-title .spec-title-violet {
+    color: #7008e7;
+}
+
+#specifications .holder {
+    width: 80%;
+    background-color: white;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+#specifications .holder table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+
+}
+
+#specifications .holder table .col-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    margin: auto;
+
+}
+
+#specifications .holder table .col-hint {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    display: block;
+    margin: auto;
+}
+
+#specifications .holder table .col-2-special {
+    color: #7008e7;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+#specifications .holder table .special-hint {
+    color: #8e51ff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    display: block;
+    margin: auto;
+}
+
+#specifications .holder table thead tr th {
+    border-bottom: 2px solid lightgray;
+    padding: 30px;
+}
+
+#specifications .holder table tbody tr td {
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+
+}
+
+#specifications .holder table tbody tr td .col-2-violet-cell {
+    background-color: #8e51ff;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#specifications .holder table tfoot tr td {
+    padding: 20px;
+}
+
+#specifications .last {
+    width: 20%;
+    background-color: white;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px 30px;
+    margin-top: 40px;
+}
+
+#specifications .last .last-green-title {
+    color: #00a63e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 30px;
+}
+
+#specifications .last .last-green-paragraph {
+    color: #00a63e;
+    margin-left: 30px;
+}
+
+/*End of Specifications Styling*/
