@@ -883,3 +883,137 @@
 }
 
 /*End of Products Styling*/
+
+
+/*Start of Footer Styling*/
+.footer {
+    background-color: #101828;
+    padding: 50px;
+}
+
+.footer-body {
+    border-bottom: 2px solid rgb(60, 60, 60);
+    padding: 30px;
+}
+
+.footer-wrapper {
+    width: 70%;
+    margin: auto;
+
+
+}
+
+.footer-left-side {
+    width: 25%;
+}
+
+.footer-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 15px;
+
+}
+
+.footer-paragraph {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+
+}
+
+.footer-paragraph {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.footer-links .footer-link-list .footer-link-icon {
+    display: inline-block;
+    list-style: none;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.footer-links .footer-link-list .footer-link-icon img {
+    width: 100%;
+}
+
+.footer-links .footer-link-list .footer-link-icon:hover {
+    cursor: pointer;
+}
+
+.footer-right-side {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.footer-left-side,
+.footer-right-side {
+    float: left;
+    position: relative;
+}
+
+.subsection {
+    width: 20%;
+    display: inline-block;
+}
+
+.subsection-title {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.subsection-list .list-item {
+    list-style: none;
+    color: #cac9c9;
+    margin-bottom: 15px;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+}
+
+.center {
+    position: absolute;
+    left: 40%;
+}
+
+.bottom-right,
+.bottom-left {
+    width: 45%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.bottom-left {
+    color: white;
+}
+
+.bottom-right {
+    float: right;
+}
+
+.sponsors {
+    float: right;
+}
+
+.sponsor {
+    width: 50px;
+    background-color: white;
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.sponsor img {
+    max-width: 100%;
+}
+
+/*End of Footer Styling*/
